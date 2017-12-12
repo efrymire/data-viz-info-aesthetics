@@ -65,8 +65,17 @@ body {
     font-family: 'News Gothic Std', arial, serif;
 }
 
+.title { 
+    font-weight: normal;
+    font-size: 150px;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 120px;
+    opacity:0.7;
+}
+
 h1 {
-    /*font-family: "Arvo";*/
+    font-family: 'News Gothic Std', arial, serif;
     font-weight: normal;
     font-size: 55px;
     text-align: center;
@@ -76,9 +85,9 @@ h1 {
 }
 
 h2 {
-    /*font-family: "Arvo";*/
+    font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #fff;
     margin: 0;
@@ -108,62 +117,6 @@ h3 {
     clear: both; 
 }
 
-#header {
-    width: 100%;
-    background: grey;
-    height: 80px;
-    /*position: fixed;*/
-}
-
-#nav {
-    width: 100%;
-    float: right;
-    margin-top: 20px;
-}
-
-#logo a {
-    color: #fff;
-    text-decoration: none;
-    float: left;
-    font-size: 20px;
-    margin-top: 20px;
-    color: #fff;
-    font-weight: bold;
-}
-
-#nav ul {
-    list-style: none;
-    display: block;
-    margin: 0 auto;
-    list-style: none;
-}
-
-#nav li {
-    margin-top: 9px;
-    float: left;
-    padding-left: 10px;
-}
-
-#nav li a {
-    color: #fff;
-    opacity: 0.6;
-    font-size: 20px;
-    text-decoration: none;
-    
-	-webkit-transition: all 0.5s ease;
-}
-
-#nav li a.active {
-    color: #fff;
-    opacity: 1;
-    border-bottom: 2px solid #fff;
-}
-
-#nav li a:hover {
-    color: #fff;
-    opacity: 1;
-}
-
 .years { 
     font-weight: normal;
     font-size: 200px;
@@ -179,7 +132,7 @@ h3 {
     margin: 0px auto;
     opacity:0.7;
     float:left;
-    /*font-family: 'Barlow', sans-serif;*/
+    font-family: 'News Gothic Std', arial, serif;
     font-weight: 100;
 }
 
@@ -374,7 +327,7 @@ h3 {
     color: #fff;
     height: 600px;
     margin: 0;
-    padding: 200px 0 150px 0;
+    padding: 100px 0 150px 0;
     background-size: cover;
 }
 
