@@ -65,13 +65,39 @@ body {
     font-family: 'News Gothic Std', arial, serif;
 }
 
-.title { 
+.title {
     font-weight: normal;
     font-size: 150px;
     text-align: center;
-    margin: 0px auto;
+    margin: 100px auto;
     line-height: 120px;
     opacity:0.7;
+}
+
+.subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 50px auto;
+    padding: 0;
+    opacity: 0.7;
+}
+
+.all {
+    padding: 50px;
+    float:left
+}
+
+.title-hold {
+    width: 50%;
+    float:left
+}
+
+.subtitle-hold {
+    width: 50%;
+    float:right
 }
 
 h1 {
@@ -88,15 +114,16 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
     font-size: 30px;
-    text-align: center;
+    text-align: right;
     color: #fff;
     margin: 0;
     padding: 0;
+    opacity:0.7;
 }
 
 h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: normal;
+    /*font-weight: normal;*/
     font-size: 16px;
     text-align: center;
     margin: 5px 0;
@@ -110,8 +137,9 @@ h3 {
 }
 
 .content { 
-    margin: 0 auto; 
-    width: 960px; }
+    margin: 0 50px 0 50px;
+    /*width: 960px; */
+}
 
 .clear { 
     clear: both; 
@@ -136,45 +164,15 @@ h3 {
     font-weight: 100;
 }
 
-/*.author_name_white {*/
-    /*font-family: "Wellfleet";*/
-/*    margin: 70px 0 0 75px;*/
-/*    color: #fff;*/
-/*    font-size: 20px;*/
-/*}*/
-
-/*.author_name_gray {*/
-    /*font-family: "Wellfleet";*/
-/*    margin: 70px 0 0 75px;*/
-/*    color: #94a4a4;*/
-/*    font-size: 20px;*/
-/*}*/
-
 .years_container {
     width: 100%;
-    margin: 0 0 0 0 auto;
+    margin: 0 0 0 0;
 }
 
-.details_container1 {
+.details_container {
     width: 30%;
-    margin: 0 0 0 0 auto;
+    margin: 0 0 0 0;
     float:left;
-}
-
-.details_container2 {
-    width: 30%;
-    margin: 0 0 0 0 auto;
-    float:right;
-}
-
-#ribbon {
-    background: url('images/Immersive_Ribbon.png')no-repeat;
-    width: 251px;
-    height: 48px;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-    top: -38px;
 }
 
 .divider {
@@ -183,143 +181,9 @@ h3 {
     color: #333333;
     height: 110px;
     overflow: hidden;
-    margin: 0px auto;
+    margin: 0 0 0 0;
 }
 
-/*#divider1 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider2 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 110px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider3 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider4 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider5 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider6 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider7 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider8 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider9 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider10 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider11 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider12 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider13 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider14 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
-
-/*#divider15 {*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    color: #333333;*/
-/*    height: 150px;*/
-/*    overflow: hidden;*/
-/*    margin: 0px auto;*/
-/*}*/
 
 #slide1 {
     width: 100%;
@@ -327,13 +191,13 @@ h3 {
     color: #fff;
     height: 600px;
     margin: 0;
-    padding: 100px 0 150px 0;
+    padding: 0px 0 150px 0;
     background-size: cover;
 }
 
 #slide2 {
     width:100%;
-    background: url('images/Immersive_Background_1910.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1890-1900.png') 50% 0 no-repeat fixed;
     color: #fff;
     height: 900px;
     margin: 0;
@@ -342,7 +206,7 @@ h3 {
 }
 
 #slide3 {
-    background: url('images/Immersive_Background_1920.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1900-1910.png') 50% 0 no-repeat fixed;
     color: #fff;
     height: 900px;
     margin: 0;
@@ -351,113 +215,107 @@ h3 {
 }
 
 #slide4 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1910-1920.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide5 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1920-1930.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide6 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1930-1940.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide7 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1940-1950.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide8 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1950-1960.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide9 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1960-1970.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide10 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1970-1980.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide11 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1980-1990.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 900px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide12 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
+    background: url('images/Immersive_Background_1990-2000.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 1300px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #slide13 {
     background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 540px;
     margin: 0;
-    padding: 200px 0 260px 0;
-    background-size: cover;
-}
-
-#slide14 {
-    background: url('images/Immersive_Background.png') 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 600px;
-    margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 50px 0 50px 0;
     background-size: cover;
 }
 
 #copyright {
     color: #fff;
-    font-size: 14px;
-    text-align: center;
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.7;
 }
 
 #copyright a {
     text-decoration: none;
     color: #fff;
     bottom:0px;
+    font-family: 'News Gothic Std', arial, serif;
+    opacity: 0.7;
 }
 
